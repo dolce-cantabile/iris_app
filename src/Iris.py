@@ -25,4 +25,4 @@ pred = model.predict(x_test)
 print(classification_report(t_test, pred))
 
 # 学習済みモデルを保存
-joblib.dump(model, 'src/iris.pkl', compress=True)
+joblib.dump(model, 'iris.pkl', compress=True)
